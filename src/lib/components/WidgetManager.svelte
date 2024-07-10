@@ -7,7 +7,6 @@
 
 	// Function to add a new widget
 	function addNewWidget() {
-		console.log('hi');
 		widgetId = crypto.randomUUID();
 		let widgetData: unknown;
 		try {
